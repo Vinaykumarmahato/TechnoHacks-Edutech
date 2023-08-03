@@ -1,2 +1,2 @@
 # TechnoHacks-Edutech
-Domain: Web development
+Domain: Web development internship
