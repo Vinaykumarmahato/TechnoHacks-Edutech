@@ -1,0 +1,216 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, select, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Add general styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(200, 10%, 94%);
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21c3d8; /* Adjust this color as per your preference */
+    padding: 1px;
+  }
+  
+  .profile-img {
+    width: 100px; /* Adjust the width as per your profile picture */
+    height: 100px; /* Adjust the height as per your profile picture */
+    border-radius: 10%;
+    margin-right: 10px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8dd6ec;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .currency {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .currency select {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #5e924a;
+    border-radius: 5px;
+  }
+  
+  .currency input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    background-color: hsl(210, 17%, 98%);
+    border-radius: 5px;
+  }
+  
+  .swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust this color as per your preference */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Adjust this color as per your preference */
+  }
+  
+  .rate {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Contact section styling */
+  .contact {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    border-radius: 10px;
+  }
+  
+  .contact__container {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .contact__content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .contact__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact__info {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+  }
+  
+  .contact__card {
+    text-align: center;
+  }
+  
+  .contact__card-icon {
+    font-size: 24px;
+    color: #007bff; /* Adjust this color as per your preference */
+  }
+  
+  .contact__card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .contact__card-data {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact__button {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff; /* Adjust this color as per your preference */
+    text-decoration: none;
+  }
+  
+  .contact__button:hover {
+    text-decoration: underline;
+  }
+  
+  .contact__form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .contact__form-div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact__form-tag {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact__form-input,
+  .contact__form-area {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .contact__form-area {
+    resize: vertical;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust this color as per your preference */
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Adjust this color as per your preference */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .currency {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .currency select {
+      margin-bottom: 10px;
+    }
+  
+    .swap-rate-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
