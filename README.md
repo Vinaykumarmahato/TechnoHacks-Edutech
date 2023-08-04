@@ -9,7 +9,7 @@ Build a personal portfolio website showcasing your skills, experience, and proje
 - 🧮 Calculator App: [Check](https://calculatoradv.netlify.app/)
 Developed a calculator app capable of performing basic math operations. 🖩🔢
 
-- 💱 Currency Converter App: [Check]()
+- 💱 Currency Converter App: [Check](https://currencyconverteradv.netlify.app/)
 Created a currency converter app allowing users to convert between different currencies. 💲🔄🌍
 
 ## Internship Roadmap 🗺️
