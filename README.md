@@ -3,13 +3,13 @@ TechnoHacks is an IT training and product company that offers top-notch training
 
 ## Completed Task List ✅
 
-- 📚 Personal Portfolio Page:
+- 📚 Personal Portfolio Page: [Check](https://vinaykumarjavadeveloper2.netlify.app/)
 Build a personal portfolio website showcasing your skills, experience, and projects. 🌐📑
 
-- 🧮 Calculator App:
+- 🧮 Calculator App: [Check](https://calculatoradv.netlify.app/)
 Developed a calculator app capable of performing basic math operations. 🖩🔢
 
-- 💱 Currency Converter App:
+- 💱 Currency Converter App: [Check]()
 Created a currency converter app allowing users to convert between different currencies. 💲🔄🌍
 
 ## Internship Roadmap 🗺️
